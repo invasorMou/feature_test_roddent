@@ -1,0 +1,7 @@
+capybara:
+  title: Cheatsheet for capybara
+  content: visit(url), to go to that url
+
+rspec:
+  title: installing Rspec 
+  content: add gem 'rspec-rails' to development and test groups in gemfile. Then run bundle install and rails generate rspec:install
