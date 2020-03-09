@@ -21,6 +21,8 @@ RSpec.feature "User see the index page" do
     post2 = posts(:capybara)
     
     visit root_path
+    click_link post.title
+    
     expect(page).to have_text post.title
     expect(page).to_not have_text post2.title
   end 
